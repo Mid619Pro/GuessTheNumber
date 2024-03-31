@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>script testing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: aquamarine;">
+
+    <h1 style="text-align:center;color:red">🧠Guess The Number <span style="color:blueviolet">!</span></h1>
+    <h3>Between <span style="color:rgb(94, 28, 174)">( </span><span style="color:red">1</span> To <span
+            style="color:red">3</span><span style="color:rgb(94, 28, 174)"> )</span></h3>
+    
+    <div class="box">
+        <input type="number" value="" placeholder="0" id="player" min="1" max="3">
+    </div>
+     <div class="button">
+        <button onclick="checkPlayerInput()">CHECK</button>
+     </div>
+   
+    <h2 id="WinorLoss" style="text-align: center;margin-top:60px;">Player:Win🏆 Or Loss💔</h2>
+   
+   <script src="index.js"></script>
+
+
+</body>
+
+</html>

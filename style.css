@@ -1,0 +1,38 @@
+h3{
+   
+    text-align: center;
+}
+.box{
+    display:block;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+input{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    color:blue;
+    padding:5px 30px;
+}
+
+h2{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.button{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+ button{
+   
+    border-radius: 20px;
+    text-align: center;
+    padding:5px 10px;
+ }
+ button:hover{
+    border-color: rgb(233, 18, 18);
+    background-color: rgb(7, 81, 56);
+    color: aliceblue;
+ }
